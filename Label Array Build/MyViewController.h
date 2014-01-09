@@ -10,4 +10,8 @@
 
 @interface MyViewController : UIViewController
 
+@property (retain, nonatomic) IBOutletCollection(UILabel) NSArray *arrayOfLabels;
+
+@property (strong, nonatomic) IBOutlet UISwitch *switchValue;
+
 @end
